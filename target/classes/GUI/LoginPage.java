@@ -78,7 +78,7 @@ public class LoginPage extends JFrame implements ActionListener {
         }
 
         if (password.equals(Dpasswd)) {
-            JOptionPane.showMessageDialog(null, "登录成功");//todo 登录成功，应该修改最后登录时间,但是我更本就不想加
+            JOptionPane.showMessageDialog(null, "登录成功");//todo 登录成功，应该在数据库添加最后登录时间
             try {
                 LoginPage.userid = UserTools.findUserByNick(account).getId();
             } catch (IOException ex) {
@@ -109,7 +109,7 @@ public class LoginPage extends JFrame implements ActionListener {
                 */
                 if (password.length() < 4 || password == null) {
                     JOptionPane.showMessageDialog(null, "密码不合规，长度必须为4或者以上");
-                } else {//todo 检测通过 写入数据库 时间相关的都没有做
+                } else {//todo 检测通过 写入数据库
                     UserTools.createAccout(account, password);
                     JOptionPane.showMessageDialog(null, "账号创建成功，点击确定返回登录");
                 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//dao.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--environments配置了数据库连接，配置了driver、url、username、password属性-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC">
+                <!--<property name="" value="" />-->
+            </transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="org.sqlite.JDBC"/>
+                <property name="url" value="jdbc:sqlite:../AnimalMoving.db"/> <!-- todo 数据库URL -->
+                <!--                <property name="username" value="root"/>-->
+                <!--                <property name="password" value="root"/>-->
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!-- 注册映射接口，该接口文件包含了数据访问方法和SQL -->
+        <mapper class="JDBC.dao.UserMapper"/>
+        <mapper class="JDBC.dao.GradeMapper"/>
+        <!--<mapper resource="mybatis/UserMapper.xml"/>-->
+    </mappers>
+</configuration>

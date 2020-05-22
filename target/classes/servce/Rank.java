@@ -10,11 +10,6 @@ import java.io.IOException;
 import java.util.List;
 
 
-/*
-    todo 基本ok 样式很丑 还没有加入原游戏程序
- */
-
-
 public class Rank extends JFrame {
 
     private JTextArea tf;

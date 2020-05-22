@@ -34,7 +34,7 @@ public class HandleMouse extends JPanel implements MouseListener, ActionListener
             step = new ArrayList<Integer>();
             recordTime = new javax.swing.Timer(1000, this);
             record = new Record();
-            musicFile = new File("qwe/qwe.wav");//todo 音乐文件在这里
+            musicFile = new File("qwe.wav");//todo 音乐文件在这里
             URI uri = musicFile.toURI();
             URL url = uri.toURL();
             showTime = new JTextField(26);

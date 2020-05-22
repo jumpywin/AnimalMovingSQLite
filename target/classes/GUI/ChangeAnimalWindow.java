@@ -46,8 +46,8 @@ public class ChangeAnimalWindow extends JFrame implements ActionListener {
         handleMouse = new HandleMouse();
 
         //todo 指定默认动物图片目录
-        leftImageFile = new File("qwe/cat.jpg");
-        rightImageFile = new File("qwe/dog.jpg");
+        leftImageFile = new File("cat.jpg");
+        rightImageFile = new File("dog.jpg");
         this.init();
 
         //菜单栏
