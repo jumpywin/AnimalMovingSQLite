@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="AnimalMovingSQLite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AnimalMovingSQLite_jar</output-path>
+    <root id="root">
+      <element id="archive" name="AnimalMovingSQLite.jar">
+        <element id="module-output" name="AnimalMovingSQLite" />
+      </element>
+      <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.3" />
+      <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.30.1" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
