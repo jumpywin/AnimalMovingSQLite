@@ -11,7 +11,7 @@
             </transactionManager>
             <dataSource type="POOLED">
                 <property name="driver" value="org.sqlite.JDBC"/>
-                <property name="url" value="jdbc:sqlite:../AnimalMoving.db"/> <!-- todo 数据库URL -->
+                <property name="url" value="jdbc:sqlite:./AnimalMoving.db"/> <!-- todo 数据库URL -->
                 <!--                <property name="username" value="root"/>-->
                 <!--                <property name="password" value="root"/>-->
             </dataSource>

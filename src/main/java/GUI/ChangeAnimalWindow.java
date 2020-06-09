@@ -22,7 +22,7 @@ public class ChangeAnimalWindow extends JFrame implements ActionListener {
     int amountOfAnimal = 6;
     int distance = 80;
     Animal[] animal;
-    model.Point[] point;
+    Point[] point;
     HandleMouse handleMouse;
     File leftImageFile, rightImageFile;
     File fileOneGrade, fileTwoGrade, fileThreeGrade;
@@ -143,11 +143,11 @@ public class ChangeAnimalWindow extends JFrame implements ActionListener {
     // 游戏核心代码
     public void init() {
         animal = new Animal[amountOfAnimal];
-        point = new model.Point[amountOfAnimal + 1];
+        point = new Point[amountOfAnimal + 1];
 
         int space = distance;
         for (int i = 0; i < point.length; i++) {
-            point[i] = new model.Point(space, 100);
+            point[i] = new Point(space, 100);
             space = space + distance;
         }
         for (int i = 0; i < animal.length; i++) {

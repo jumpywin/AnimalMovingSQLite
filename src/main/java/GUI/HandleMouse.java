@@ -17,7 +17,7 @@ import java.applet.*;
  */
 
 public class HandleMouse extends JPanel implements MouseListener, ActionListener {
-    model.Point[] point;
+    Point[] point;
     ArrayList<Integer> step;
     int spendTime = 0;
     javax.swing.Timer recordTime;
@@ -51,7 +51,7 @@ public class HandleMouse extends JPanel implements MouseListener, ActionListener
 
     }
 
-    public void setPoint(model.Point[] point) {
+    public void setPoint(Point[] point) {
         this.point = point;
     }
 
