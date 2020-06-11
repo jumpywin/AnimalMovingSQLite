@@ -24,5 +24,5 @@ public interface GradeMapper {
     void InsertGrade(@Param("userid") int userid, @Param("difficulty") int difficulty, @Param("completion_time") int completion_time);
 
 
-    //todo 不急，需要做一个减少记录数据的操作，删除成绩记录中同一个人的后一半数据
+    //需要做一个减少记录数据的操作，删除成绩记录中同一个人的后一半数据
 }

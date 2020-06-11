@@ -41,7 +41,7 @@ public class LoginPage extends JFrame implements ActionListener {
         create.addActionListener(this);
 
 
-        jp2 = new JPanel();    //创建面板
+        jp2 = new JPanel();
         jp2.add(str1);
         jp2.add(nick);
         jp2.add(str2);
@@ -61,16 +61,12 @@ public class LoginPage extends JFrame implements ActionListener {
     }
 
 
-    /*
-        登录校验放在这里，
-     */
     public void checkLogin() {
         String account = nick.getText();
         String password = new String(passwd.getPassword());
-        String Daccount = null;
         String Dpasswd = null;
         try {
-            Daccount = UserTools.findUserByNick(account).getNick();
+            UserTools.findUserByNick(account).getNick();
             Dpasswd = UserTools.findUserByNick(account).getPasswd();
 
         } catch (Exception e) {
@@ -78,7 +74,7 @@ public class LoginPage extends JFrame implements ActionListener {
         }
 
         if (password.equals(Dpasswd)) {
-            JOptionPane.showMessageDialog(null, "登录成功");//todo 登录成功，应该在数据库添加最后登录时间
+            JOptionPane.showMessageDialog(null, "登录成功");//todo 登录成功，应该在数据库记录最后登录时间
             try {
                 LoginPage.userid = UserTools.findUserByNick(account).getId();
             } catch (IOException ex) {
@@ -86,7 +82,7 @@ public class LoginPage extends JFrame implements ActionListener {
             }
             this.dispose();//关闭窗口
             new ChangeAnimalWindow();
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, "密码有误，请重试");
         }
     }
@@ -96,20 +92,16 @@ public class LoginPage extends JFrame implements ActionListener {
         String account = nick.getText();
         String password = new String(passwd.getPassword());
 
-        /*
-            检查账号是否合规
-         */
+        //检查账号是否合规
         if (account.length() < 3) {
             JOptionPane.showMessageDialog(null, "账号不合规，长度必须为3或以上");
         }
         try {
-            if (UserTools.findUserByNick(account) == null) {//检查账号是否存在
-                /*
-                    检查密码是否合规
-                */
+            if (UserTools.findUserByNick(account) == null) {//检查账号是否被注册
+                //检查密码是否合规
                 if (password.length() < 4 || password == null) {
                     JOptionPane.showMessageDialog(null, "密码不合规，长度必须为4或者以上");
-                } else {//todo 检测通过 写入数据库
+                } else {//检测通过 写入数据库
                     UserTools.createAccout(account, password);
                     JOptionPane.showMessageDialog(null, "账号创建成功，点击确定返回登录");
                 }
@@ -132,6 +124,5 @@ public class LoginPage extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         new LoginPage();
-        //new ChangeAnimalWindow();
     }
 }

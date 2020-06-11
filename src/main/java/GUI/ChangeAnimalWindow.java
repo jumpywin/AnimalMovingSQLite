@@ -12,7 +12,7 @@ import java.io.*;
 import javax.swing.filechooser.*;
 
 /*
-    主JFrame窗口类
+    主游戏窗口类
  */
 
 public class ChangeAnimalWindow extends JFrame implements ActionListener {
@@ -130,7 +130,7 @@ public class ChangeAnimalWindow extends JFrame implements ActionListener {
         south.add(handleMouse);
         this.add(south, BorderLayout.NORTH);
 
-        //todo Frame窗体属性设置
+        //Frame窗体属性设置
         this.setVisible(true);
         this.setTitle("AnimalJump");
         this.setBackground(Color.white);
@@ -148,7 +148,7 @@ public class ChangeAnimalWindow extends JFrame implements ActionListener {
         int space = distance;
         for (int i = 0; i < point.length; i++) {
             point[i] = new Point(space, 100);
-            space = space + distance;
+            space += distance;
         }
         for (int i = 0; i < animal.length; i++) {
             animal[i] = new Animal();

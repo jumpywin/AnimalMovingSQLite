@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AnimalMoving:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="" />
+    <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AnimalMoving_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnimalMoving.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChangeAnimalWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChangeAnimalWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d5Nqr6sjErpXUxoOJ0WGTcgo9a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -27,6 +67,30 @@
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\resources" />
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\IdeWorkSpace\AnimalMoving\src\main\resources\mybatis" />
+      <recent name="D:\WorkSpace\IdeWorkSpace\AnimalMoving\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.LoginPage" />
+      <module name="AnimalMoving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginPage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,16 +104,82 @@
       <updated>1591711187167</updated>
       <workItem from="1591711190567" duration="387000" />
       <workItem from="1591711634373" duration="293000" />
+      <workItem from="1591715559003" duration="8000" />
+      <workItem from="1591716263384" duration="838000" />
+      <workItem from="1591721320315" duration="309000" />
+      <workItem from="1591784926384" duration="2048000" />
+      <workItem from="1591844293499" duration="2677000" />
+      <workItem from="1591847275224" duration="4234000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="136" key="SettingsEditor" timestamp="1591711478038">
+    <state x="617" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591716445165">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
-    <state x="505" y="136" key="SettingsEditor/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591711478038" />
+    <state x="617" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591716445165" />
+    <state x="755" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591853774943">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="755" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853774943" />
+    <state x="805" y="316" key="FileChooserDialogImpl" timestamp="1591853787328">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="805" y="316" key="FileChooserDialogImpl/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853787328" />
+    <state width="2005" height="307" key="GridCell.Tab.0.bottom" timestamp="1591847258104">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.bottom/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
+    <state width="2005" height="307" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258104" />
+    <state width="2005" height="307" key="GridCell.Tab.0.center" timestamp="1591847258103">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.center/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
+    <state width="2005" height="307" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258103" />
+    <state width="2005" height="307" key="GridCell.Tab.0.left" timestamp="1591847258102">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.left/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
+    <state width="2005" height="307" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258102" />
+    <state width="2005" height="307" key="GridCell.Tab.0.right" timestamp="1591847258103">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.right/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
+    <state width="2005" height="307" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258103" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1591716435906">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591716435906" />
+    <state x="505" y="136" key="SettingsEditor" timestamp="1591853794303">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="505" y="136" key="SettingsEditor/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853794303" />
+    <state x="256" y="134" width="1682" height="1108" key="dock-window-1" timestamp="1591848352742">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="256" y="134" width="1682" height="1108" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1591848352742" />
+    <state x="0" y="0" width="1682" height="1108" key="dock-window-1/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258246" />
   </component>
 </project>
