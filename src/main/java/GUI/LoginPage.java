@@ -99,7 +99,7 @@ public class LoginPage extends JFrame implements ActionListener {
         try {
             if (UserTools.findUserByNick(account) == null) {//检查账号是否被注册
                 //检查密码是否合规
-                if (password.length() < 4 || password == null) {
+                if (password.length() < 4) {
                     JOptionPane.showMessageDialog(null, "密码不合规，长度必须为4或者以上");
                 } else {//检测通过 写入数据库
                     UserTools.createAccout(account, password);

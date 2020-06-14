@@ -4,8 +4,6 @@ import JDBC.model.Grade;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-
-import java.util.HashMap;
 import java.util.List;
 
 public interface GradeMapper {
@@ -24,5 +22,5 @@ public interface GradeMapper {
     void InsertGrade(@Param("userid") int userid, @Param("difficulty") int difficulty, @Param("completion_time") int completion_time);
 
 
-    //需要做一个减少记录数据的操作，删除成绩记录中同一个人的后一半数据
+    //需要做一个减少记录数据的操作，删除成绩记录中同一个人的后一半数据,写入数据库触发器或许比较合适
 }

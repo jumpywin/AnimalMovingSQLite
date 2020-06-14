@@ -25,14 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AnimalMoving_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalMoving.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChangeAnimalWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChangeAnimalWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/dao/SqlSessionManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/dao/SqlSessionManger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaDesigin" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,7 +105,8 @@
       <workItem from="1591721320315" duration="309000" />
       <workItem from="1591784926384" duration="2048000" />
       <workItem from="1591844293499" duration="2677000" />
-      <workItem from="1591847275224" duration="4234000" />
+      <workItem from="1591847275224" duration="6281000" />
+      <workItem from="1591940888257" duration="24000" />
     </task>
     <servers />
   </component>
@@ -140,10 +137,11 @@
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
     <state x="755" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853774943" />
-    <state x="805" y="316" key="FileChooserDialogImpl" timestamp="1591853787328">
-      <screen x="0" y="0" width="2048" height="1122" />
+    <state x="604" y="235" key="FileChooserDialogImpl" timestamp="1591940909999">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="805" y="316" key="FileChooserDialogImpl/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853787328" />
+    <state x="604" y="235" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591940909999" />
     <state width="2005" height="307" key="GridCell.Tab.0.bottom" timestamp="1591847258104">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
