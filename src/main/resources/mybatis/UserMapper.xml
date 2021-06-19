@@ -7,6 +7,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="JDBC.dao.UserMapper">
     <select id="createAccount">
-   insert("insert into user(nick,passwd) value(#{nick},#{passwd})")
-  </select>
+        insert
+        ("insert into user(nick,passwd) value(#{nick},#{passwd})")
+    </select>
 </mapper>

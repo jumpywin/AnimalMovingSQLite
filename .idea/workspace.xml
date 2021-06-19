@@ -28,16 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DB_init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalMoving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalMoving.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AnimalMoving.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.java" beforeDir="false" />
@@ -78,18 +72,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="checksumPolicy" value="FAIL" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="corretto-1.8" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -108,21 +90,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CloudStation/workspace/idea/AnimalMovingSQLite" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\CloudStation\workspace\idea\AnimalMovingSQLite" />
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\resources" />
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\java" />
     </key>
@@ -134,26 +113,13 @@
   <component name="RunManager">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.LoginPage" />
-      <module name="AnimalMovingSQLite" />
+      <module name="AnimalMoving" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,17 +150,14 @@
       <workItem from="1591844293499" duration="2677000" />
       <workItem from="1591847275224" duration="6281000" />
       <workItem from="1591940888257" duration="24000" />
-      <workItem from="1624002018165" duration="1439000" />
-      <workItem from="1624003511704" duration="176000" />
-      <workItem from="1624003724680" duration="268000" />
-      <workItem from="1624004147107" duration="1159000" />
-      <workItem from="1624005658031" duration="120000" />
-      <workItem from="1624005892699" duration="3132000" />
-      <workItem from="1624010507228" duration="612000" />
-      <workItem from="1624012546497" duration="54000" />
-      <workItem from="1624012658549" duration="130000" />
-      <workItem from="1624012805423" duration="3479000" />
-      <workItem from="1624070099598" duration="1093000" />
+      <workItem from="1595120141133" duration="598000" />
+      <workItem from="1595246722804" duration="27000" />
+      <workItem from="1608974482172" duration="855000" />
+      <workItem from="1608976191452" duration="92000" />
+      <workItem from="1618730667482" duration="1662000" />
+      <workItem from="1623978998106" duration="7000" />
+      <workItem from="1623979154205" duration="1123000" />
+      <workItem from="1624005517812" duration="297000" />
     </task>
     <servers />
   </component>
