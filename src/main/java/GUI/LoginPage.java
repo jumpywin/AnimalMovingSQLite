@@ -85,6 +85,9 @@ public class LoginPage extends JFrame implements ActionListener {
         } else {
             JOptionPane.showMessageDialog(null, "密码有误，请重试");
         }
+        if (true) {//todo 删掉
+            ;
+        }
     }
 
 
