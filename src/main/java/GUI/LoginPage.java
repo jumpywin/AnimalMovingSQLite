@@ -15,7 +15,7 @@ public class LoginPage extends JFrame implements ActionListener {
 
     public static int userid;
 
-    JPanel jp2, jp3;
+    JPanel jp2;
     JTextField nick;
     JPasswordField passwd;
     JLabel str1, str2;
@@ -103,7 +103,7 @@ public class LoginPage extends JFrame implements ActionListener {
                     JOptionPane.showMessageDialog(null, "密码不合规，长度必须为4或者以上");
                 } else {//检测通过 写入数据库
                     UserTools.createAccout(account, password);
-                    JOptionPane.showMessageDialog(null, "账号创建成功，点击确定返回登录");
+                    JOptionPane.showMessageDialog(null, "账号创建成功，点击确定返回登录！");
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "账号已存在");

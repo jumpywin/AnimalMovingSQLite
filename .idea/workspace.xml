@@ -5,6 +5,9 @@
       <artifact name="AnimalMoving:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,18 +28,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DB_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnimalMoving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalMoving.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/dao/GradeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/dao/SqlSessionManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/dao/SqlSessionManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnimalMoving.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/HandleMouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/HandleMouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/GradeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/GradeTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/SqlSessionManger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/UserTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/model/Grade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qwe.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servce/Rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servce/Rank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servce/Record.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servce/Record.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="corretto-1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1d5Nqr6sjErpXUxoOJ0WGTcgo9a" />
   <component name="ProjectLevelVcsManager">
@@ -53,13 +108,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaDesigin" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CloudStation\workspace\idea\AnimalMovingSQLite" />
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\resources" />
       <recent name="C:\Users\jumpywin\IdeaProjects\AnimalMoving\src\main\java" />
     </key>
@@ -71,7 +134,7 @@
   <component name="RunManager">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.LoginPage" />
-      <module name="AnimalMoving" />
+      <module name="AnimalMovingSQLite" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GUI.*" />
@@ -82,12 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LoginPage" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,11 +184,22 @@
       <workItem from="1591844293499" duration="2677000" />
       <workItem from="1591847275224" duration="6281000" />
       <workItem from="1591940888257" duration="24000" />
+      <workItem from="1624002018165" duration="1439000" />
+      <workItem from="1624003511704" duration="176000" />
+      <workItem from="1624003724680" duration="268000" />
+      <workItem from="1624004147107" duration="1159000" />
+      <workItem from="1624005658031" duration="120000" />
+      <workItem from="1624005892699" duration="3132000" />
+      <workItem from="1624010507228" duration="612000" />
+      <workItem from="1624012546497" duration="54000" />
+      <workItem from="1624012658549" duration="130000" />
+      <workItem from="1624012805423" duration="3479000" />
+      <workItem from="1624070099598" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -127,57 +215,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="617" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591716445165">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state x="617" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591716445165" />
-    <state x="755" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591853774943">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state x="755" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853774943" />
-    <state x="604" y="235" key="FileChooserDialogImpl" timestamp="1591940909999">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="805" y="316" key="FileChooserDialogImpl/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853787328" />
-    <state x="604" y="235" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591940909999" />
-    <state width="2005" height="307" key="GridCell.Tab.0.bottom" timestamp="1591847258104">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.bottom/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
-    <state width="2005" height="307" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258104" />
-    <state width="2005" height="307" key="GridCell.Tab.0.center" timestamp="1591847258103">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.center/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
-    <state width="2005" height="307" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258103" />
-    <state width="2005" height="307" key="GridCell.Tab.0.left" timestamp="1591847258102">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.left/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
-    <state width="2005" height="307" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258102" />
-    <state width="2005" height="307" key="GridCell.Tab.0.right" timestamp="1591847258103">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.right/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591719412075" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591786455011" />
-    <state width="2005" height="307" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258103" />
-    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1591716435906">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="212" height="477" key="HiddenNamespacesPopup/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591716435906" />
-    <state x="505" y="136" key="SettingsEditor" timestamp="1591853794303">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state x="505" y="136" key="SettingsEditor/-1920.354.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1591853794303" />
-    <state x="256" y="134" width="1682" height="1108" key="dock-window-1" timestamp="1591848352742">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="256" y="134" width="1682" height="1108" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1591848352742" />
-    <state x="0" y="0" width="1682" height="1108" key="dock-window-1/0.0.2048.1122@0.0.2048.1122" timestamp="1591847258246" />
   </component>
 </project>

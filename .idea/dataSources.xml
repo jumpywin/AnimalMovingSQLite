@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="AnimalMoving" uuid="aa2c9259-b47b-417d-a4bb-1764db52a944">
+    <data-source source="LOCAL" name="AnimalMoving" uuid="34368d09-3e13-4fcc-b58d-a5fcfbacecec">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\WorkSpace\IdeWorkSpace\AnimalMoving\src\main\resources\AnimalMoving.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:E:\CloudStation\workspace\idea\AnimalMovingSQLite\src\main\resources\AnimalMoving.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+        </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
         </library>
