@@ -28,38 +28,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="596fa9e5-1189-46fb-ac0e-262e4e93e09e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AnimalMoving.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChangeAnimalWindow.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/HandleMouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/HandleMouse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/GradeMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/GradeTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/SqlSessionManger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/UserMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JDBC/dao/UserTools.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JDBC/model/Grade.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JDBC/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dog.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qwe.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servce/Rank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servce/Rank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servce/Record.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servce/Record.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
