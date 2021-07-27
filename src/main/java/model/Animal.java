@@ -16,6 +16,8 @@ public class Animal extends JPanel {
 
     public Animal() {
         tool = getToolkit();
+        String x = point.toString();
+        System.out.println("好耶"+x);
     }
 
     public void setLeftImage(File f) {

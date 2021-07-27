@@ -19,14 +19,13 @@ public class LoginPage extends JFrame implements ActionListener {
     JTextField nick;
     JPasswordField passwd;
     JLabel str1, str2;
-
     JButton login, create;
 
     LoginPage() {
 
-        str1 = new JLabel("请输入账号");
+        str1 = new JLabel("请输入账号呀");
 
-        str2 = new JLabel("请输入密码");
+        str2 = new JLabel("请输入密码哦");
 
         nick = new JTextField(30);
         nick.setFont(new Font("楷体", Font.BOLD, 16));
@@ -90,7 +89,6 @@ public class LoginPage extends JFrame implements ActionListener {
         }
     }
 
-
     public void createAccount() {
         String account = nick.getText();
         String password = new String(passwd.getPassword());
@@ -127,5 +125,6 @@ public class LoginPage extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         new LoginPage();
+        System.out.println("别玩了，不好玩的，换一个别的去吧");
     }
 }
