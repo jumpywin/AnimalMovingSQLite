@@ -4,6 +4,7 @@ import GUI.ChangeAnimalWindow;
 import GUI.LoginPage;
 import JDBC.dao.GradeTools;
 import JDBC.model.Grade;
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
@@ -43,11 +44,12 @@ public class Record extends JDialog implements ActionListener {
     public void actionPerformed(ActionEvent e) {//todo 保存记录方法
 
         if (e.getSource() == enter) {
-            GradeTools.InsertGrade(new Grade(LoginPage.userid, ChangeAnimalWindow.difficulty,time));
+            GradeTools.InsertGrade(new Grade(LoginPage.userid, ChangeAnimalWindow.difficulty, time));
             this.setVisible(false);
         }
         if (e.getSource() == cancel) {
             this.setVisible(false);
         }
+        System.out.println("保存好了，偶也");
     }
 }

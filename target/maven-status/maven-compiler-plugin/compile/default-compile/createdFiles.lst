@@ -1,0 +1,14 @@
+JDBC\model\Grade.class
+GUI\HandleMouse.class
+JDBC\dao\SqlSessionManger.class
+model\Point.class
+servce\Record.class
+model\Animal.class
+servce\Rank.class
+GUI\LoginPage.class
+JDBC\dao\UserTools.class
+JDBC\dao\GradeTools.class
+JDBC\dao\UserMapper.class
+GUI\ChangeAnimalWindow.class
+JDBC\model\User.class
+JDBC\dao\GradeMapper.class
